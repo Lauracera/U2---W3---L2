@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Json</title>
   </head>
   <body>
@@ -13,13 +22,20 @@
         <label for="fname">Nome:</label><br />
         <input type="text" /><br />
         <div class="btn-div">
-          <button id="saveButton">Salva</button>
-          <button id="resetButton" class="resetBtn">Cancella</button>
+          <button id="saveButton"><i class="fas fa-check"></i></button>
+          <button id="resetButton" class="resetBtn">
+            <i class="fas fa-times"></i>
+          </button>
         </div>
       </form>
+      <hr />
     </div>
-    <h3>Contatore</h3>
-    <p>Tempo trascorso: <span id="timeCounter">0</span> secondi</p>
+
+    <div class="div-f">
+      <div class="cont-div">
+        <p>Tempo trascorso: <span id="timeCounter">0</span> secondi</p>
+      </div>
+    </div>
     <script src="script/script.js"></script>
   </body>
 </html>
