@@ -2,10 +2,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(211, 211, 211, 0.336);
 }
 
 button {
   margin-top: 12px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 6px;
 }
 
 #fname {

@@ -7,23 +7,19 @@
     <title>Json</title>
   </head>
   <body>
-    <h1>Esercizi su Json e Sotage</h1>
+    <h1>Esercizi su Json e Storage</h1>
     <div>
       <form>
         <label for="fname">Nome:</label><br />
-        <input
-          type="text"
-          id="fname"
-          name="fname"
-          value="Inserisci qui il tuo nome"
-        /><br />
+        <input type="text" /><br />
         <div class="btn-div">
-          <button id="saveBtn">Salva</button>
-          <button id="resetBtn">Cancella</button>
+          <button id="saveButton">Salva</button>
+          <button id="resetButton" class="resetBtn">Cancella</button>
         </div>
       </form>
+      <h1>Contatore</h1>
     </div>
-
+    <p>Tempo trascorso: <span id="timeCounter">0</span> secondi</p>
     <script src="script/script.js"></script>
   </body>
 </html>
