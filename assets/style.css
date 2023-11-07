@@ -3,8 +3,13 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: rgba(211, 211, 211, 0.336);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+h1 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
 button {
   margin-top: 12px;
   background-color: cornflowerblue;
@@ -20,4 +25,9 @@ button {
 .btn-div {
   display: flex;
   justify-content: space-between;
+}
+
+h3 {
+  margin-bottom: 0px;
+  margin-top: 40px;
 }
