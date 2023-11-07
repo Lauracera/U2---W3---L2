@@ -20,14 +20,17 @@
     <div>
       <form>
         <label for="fname">Nome:</label><br />
-        <input type="text" /><br />
+        <input type="text" id="usr" /><br />
         <div class="btn-div">
-          <button id="saveButton"><i class="fas fa-check"></i></button>
-          <button id="resetButton" class="resetBtn">
+          <button id="saveButton" onclick="save()">
+            <i class="fas fa-check"></i>
+          </button>
+          <button id="resetButton" class="resetBtn" onclick="deleteData()">
             <i class="fas fa-times"></i>
           </button>
         </div>
       </form>
+      <div class="div1"></div>
       <hr />
     </div>
 

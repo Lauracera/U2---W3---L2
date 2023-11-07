@@ -23,7 +23,7 @@ button {
 }
 
 #fname {
-  color: rgba(128, 128, 128, 0.87);
+  color: rgba(128, 128, 128, 0.747);
 }
 
 .btn-div {
@@ -37,7 +37,11 @@ h3 {
   color: coral;
 }
 p {
-  color: grey;
+  color: rgba(128, 128, 128, 0.74);
+}
+
+hr {
+  color: rgba(128, 128, 128, 0.74);
 }
 
 input {
@@ -45,10 +49,6 @@ input {
   height: 25px;
   width: 425px;
   box-shadow: 7px 4px 42px -15px #000000;
-}
-
-hr {
-  margin-top: 80px;
 }
 
 .cont-div {
@@ -59,4 +59,8 @@ hr {
 
 i {
   font-size: 20px;
+}
+
+.div1 {
+  margin-top: 80px;
 }
